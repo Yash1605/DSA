@@ -35,3 +35,19 @@ class Solution {
 // 		inorderTraversal(root.right);
 // 	}
 // }
+// class Solution {
+// 	static void inorder(Node root){
+// 		if(root==null)
+// 		   return;
+// 		inorder(root.left);
+// 		res.add(root.data);
+// 		inorder(root.right);
+// 	}
+//      static ArrayList<Integer>res;
+//     public ArrayList<Integer> solve(Node root) {
+//         // your code here
+// 		res=new ArrayList<>();
+//        inorder(root);
+//     return res;
+//     }
+// }
