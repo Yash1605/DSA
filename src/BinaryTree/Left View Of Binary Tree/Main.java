@@ -14,4 +14,4 @@ class Tree
        printLeft(root,res,0);
        return res;
     }
-}  //dfs 
+}  //dfs approch
