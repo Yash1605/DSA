@@ -51,3 +51,21 @@ class Solution {
 //     return res;
 //     }
 // }
+/*
+class Solution {
+    // Function to return a list containing the inorder traversal of the tree.
+    ArrayList<Integer> inOrder(Node root) {
+        // Code
+
+        ArrayList<Integer> al = new ArrayList<>();
+
+        if(root==null)
+            return al;
+        al.addAll(inOrder(root.left));
+        //addall  method inserts all of the elements in the specified collection into this list
+        al.add(root.data);
+        al.addAll(inOrder(root.right));
+
+        return al;
+    }
+}*/
